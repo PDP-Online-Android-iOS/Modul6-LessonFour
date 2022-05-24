@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="top|center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Create File"
+        android:textStyle="normal"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_margin="15dp"/>
+
+    <Button
+        android:id="@+id/createCache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:text="Cache"/>
+
+    <Button
+        android:id="@+id/createFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:text="File"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Delete File"
+        android:textStyle="normal"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_margin="15dp"/>
+
+    <Button
+        android:id="@+id/deleteCache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:text="Cache"/>
+
+    <Button
+        android:id="@+id/deleteFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:text="File"
+        android:layout_marginBottom="15dp"/>
+
+</LinearLayout>
